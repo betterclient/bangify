@@ -20,6 +20,9 @@ graalvmNative {
 	binaries {
 		named("main") {
 			buildArgs.add("--strict-image-heap")
+
+			buildArgs.add('--windows-subsystem:windows')
+			buildArgs.add('--no-fallback')
 		}
 	}
 }
