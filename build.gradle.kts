@@ -21,8 +21,8 @@ graalvmNative {
 		named("main") {
 			buildArgs.add("--strict-image-heap")
 
-			buildArgs.add('--windows-subsystem:windows')
-			buildArgs.add('--no-fallback')
+			buildArgs.add("--windows-subsystem:windows")
+			buildArgs.add("--no-fallback")
 		}
 	}
 }
